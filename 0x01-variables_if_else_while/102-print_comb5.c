@@ -26,21 +26,21 @@ int main(void)
 						putchar(i + '0');
 						putchar(l + '0');
 					}
-					if (i + l != 17)
-					{
-						putchar(',');
-						putchar(' ');
-					}
 					if (k >= j && k != j)
 					{
 						putchar(j + '0');
 						putchar(k + '0');
 					}
-					if (k + j != 17)
+					if (k + j != 11)
+					{
+						putchar(',');
+					}
+					if (l + i != 11)
 					{
 						putchar(' ');
 						putchar(',');
 					}
+
 				}
 			}
 		}

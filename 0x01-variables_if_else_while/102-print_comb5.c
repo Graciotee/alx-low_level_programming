@@ -38,7 +38,7 @@ int main(void)
 					}
 					if (k + l != 17)
 					{
-						putchar(',');
+						putchar(' ');
 					}
 				}
 			}

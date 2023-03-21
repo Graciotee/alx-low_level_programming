@@ -39,6 +39,7 @@ int main(void)
 					if (j + k != 17)
 					{
 						putchar(' ');
+						putchar(',');
 					}
 				}
 			}

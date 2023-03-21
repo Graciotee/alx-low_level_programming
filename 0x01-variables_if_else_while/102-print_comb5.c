@@ -21,7 +21,7 @@ int main(void)
 			{
 				for (l = 0 ; l < 10 ; l++)
 				{
-					if (i == 0 && i != l)
+					if (l >= i && l != i)
 					{
 						putchar(i + '0');
 						putchar(l + '0');
@@ -31,12 +31,12 @@ int main(void)
 						putchar(',');
 						putchar(' ');
 					}
-					if (j == 0 && j != k)
+					if (k >= j && k != j)
 					{
 						putchar(j + '0');
 						putchar(k + '0');
 					}
-					if (j + k != 17)
+					if (k + j != 17)
 					{
 						putchar(' ');
 					}

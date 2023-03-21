@@ -21,22 +21,22 @@ int main(void)
 			{
 				for (l = 0 ; l < 10 ; l++)
 				{
-					if (i < j && i != j)
+					if (i < l && i != l)
 					{
 						putchar(i + '0');
-						putchar(j + '0');
+						putchar(l + '0');
 					}
-					if (i + j != 17)
+					if (i + l != 17)
 					{
 						putchar(',');
 						putchar(' ');
 					}
-					if (k < l && k != l)
+					if (j < k && j != k)
 					{
+						putchar(j + '0');
 						putchar(k + '0');
-						putchar(l + '0');
 					}
-					if (k + l != 17)
+					if (j + k != 17)
 					{
 						putchar(' ');
 					}

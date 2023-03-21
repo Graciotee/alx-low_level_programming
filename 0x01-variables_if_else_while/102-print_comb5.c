@@ -26,18 +26,18 @@ int main(void)
 						putchar(i + '0');
 						putchar(j + '0');
 					}
+					if (i + j != 17)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 					if (k < l && k != l)
 					{
 						putchar(k + '0');
 						putchar(l + '0');
 					}
-					if (i + j != 17)
-					{
-						putchar(',');
-					}
 					if (k + l != 17)
 					{
-						putchar(' ');
 						putchar(',');
 					}
 				}

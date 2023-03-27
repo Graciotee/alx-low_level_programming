@@ -1,9 +1,9 @@
-#inclue "main.h"
+#include "main.h"
 
 /**
  * print_rev - imprime en reversa
  * @s: string
- * Return: 0
+ * return: 0
  */
 
 void print_rev(char *s)

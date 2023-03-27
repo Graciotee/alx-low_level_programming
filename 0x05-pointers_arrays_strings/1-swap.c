@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap int - swap var values
+ * swap_int - swap var values
  * @a: pointera
  * @b: pointerb
  * Return: void

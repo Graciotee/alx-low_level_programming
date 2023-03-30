@@ -4,19 +4,20 @@
  * @n: number for letters
  * Return: n value
  */
+
 char *leet(char *n)
 {
-	int l, m;
+	int i, j;
 	char s1[] = "aAeEoOtTlL";
 	char s2[] = "4433007711";
 
-	for (l = 0; n[l] != '\0'; l++)
+	for (i = 0; n[i] != '\0'; i++)
 	{
-		for (m = 0; m < 10; m++)
+		for (j = 0; j < 10; j++)
 		{
-			if (n[l] == s1[m])
+			if (n[i] == s1[j])
 			{
-				n[m] = s2[j];
+				n[i] = s2[j];
 			}
 		}
 	}

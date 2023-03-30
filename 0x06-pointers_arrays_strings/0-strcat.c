@@ -9,7 +9,7 @@
 
 char *_strcat(char *dest, char *src)
 {
-	char dest[20] = 'concatenate';
+	char dest[30] = 'concatenate';
 	char src[] = 'strings';
 
 	strcat(dest, src);
